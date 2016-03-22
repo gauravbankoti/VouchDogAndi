@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myProfile"
+            android:title="My Profile"
+            android:icon="@drawable/ic_person_outline_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_myDocument"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="My Document" />
+        <item
+            android:id="@+id/nav_vouch"
+            android:icon="@drawable/ic_expand_more_black_24dp"
+            android:title="My Vouching" />
+        <item
+            android:id="@+id/nav_verifydoc"
+            android:icon="@drawable/ic_verified_user_black_24dp"
+            android:title="Verify Documents" />
+        <item
+            android:id="@+id/nav_trackorder"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="Track Orders" />
+        <item
+            android:id="@+id/nav_sharedoc"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share Documents" />
+    </group>
+
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Track Orders" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

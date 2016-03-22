@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_fragment2" type="id">fragment2</item>
+    <item name="fragment_identification" type="id">fragment_identification</item>
+</resources>
